@@ -39,3 +39,14 @@ section:last-of-type{
     background-color:salmon;
     transition: width 0.3s linear;
 }
+
+.nums{
+    display:flex;
+    width:400px;
+}
+.nums .num {
+flex: 1;
+text-align:center;
+font-size:40px;
+padding:20px
+}
