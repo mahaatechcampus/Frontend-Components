@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial,Tahoma;
+}
+.product{
+    width:400px;
+    margin:20px auto;
+    box-shadow: 0 0 10px #ddd;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+}
+.product .number{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    font-size:25px;
+    font-weight:bold;
+    transition: 0.6s;
+}
+.product h3{
+    margin:20px auto;
+    transition: 0.6s;
+}
+.product p{
+    transition: 0.6s;
+}
+.product:hover .number{
+    box-shadow:0 0 0 500px cadetblue;
+    color:white;
+}
+.product:hover p{
+    color:white;
+}
+.product:hover h3{
+    color:white;
+}
