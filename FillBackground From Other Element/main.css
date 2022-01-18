@@ -25,14 +25,14 @@ body{
     margin:auto;
     font-size:25px;
     font-weight:bold;
-    transition: 0.6s;
+    transition: 0.9s;
 }
 .product h3{
     margin:20px auto;
-    transition: 0.6s;
+    transition: 0.9s;
 }
 .product p{
-    transition: 0.6s;
+    transition: 0.9s;
 }
 .product:hover .number{
     box-shadow:0 0 0 500px cadetblue;
